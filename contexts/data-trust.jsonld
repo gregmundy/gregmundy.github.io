@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "dataTrustName": "https://schema.org/name",
+    "effectiveDate": {
+      "@id": "https://schema.org/DateTime",
+      "@type": "xsd:dateTime"
+    },
+    "party": {
+      "@id": "https://schema.org/Organization",
+      "@type": "@id"
+    },
+    "representative": {
+      "@id": "https://schema.org/Person",
+      "@type": "@id"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  }
+}
