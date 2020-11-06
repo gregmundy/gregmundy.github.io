@@ -1,7 +1,0 @@
-{
-    "@context": {
-        "DataResource": "https://schema.org/Thing",
-        "pointOfContact": "https://schema.org/Person",
-        "owner": "https://schema.org/Organization"
-    }
-}
