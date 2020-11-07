@@ -16,3 +16,52 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
+
+/* Layout */
+.container {
+  position: relative;
+}
+
+.header {
+}
+
+.header__img--bw,
+.header__img--color {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+.header__img--bw {
+  z-index: 1;
+}
+
+.header__img--color {
+  z-index: 2;
+}
+
+.header__img--color:hover {
+  z-index: 2;
+  transform: rotate(45deg);
+}
+
+
+.header__img--color:active {
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.footer {
+}
+
+/* Typography */
+.heading-1 {
+}
+
+.heading-2 {
+}
