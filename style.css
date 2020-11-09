@@ -23,6 +23,8 @@ body {
 }
 
 .header {
+  margin: 0px auto;
+  text-align: center;
 }
 
 .header__img--bw,
@@ -33,6 +35,7 @@ body {
   left: 0;
   width: 20rem;
   border-radius: 50%;
+  transform: translate(50%, 50%);
   transition: all .2s;
 }
 
@@ -43,12 +46,6 @@ body {
 .header__img--color {
   z-index: 2;
 }
-
-.header__img--color:hover {
-  z-index: 2;
-  transform: rotate(45deg);
-}
-
 
 .header__img--color:active {
   z-index: -1;
